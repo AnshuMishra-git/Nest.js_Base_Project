@@ -6,7 +6,7 @@ import { User } from '../User/user.entity';
 import { UserService } from "../User/user.service"
 import { PasswordService } from '../Common/password';
 import { ResponseHelper } from '../Common/Response';
-import { responeMessage } from "../../config/message"
+import { responeMessage } from "../../config/message";
 @Controller('auth')
 export class AuthController {
   constructor(private readonly authService: AuthService,
